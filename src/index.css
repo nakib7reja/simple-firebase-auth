@@ -1,0 +1,17 @@
+nav a{
+    display: block;
+    color: blue;
+    width: 100px;
+    margin: auto;
+    padding: 5px;
+    /* text-decoration: underline; */
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav a.active{
+    text-decoration: none;
+    background: rgb(158, 226, 23);
+    color: azure;
+    border-radius: 5px;
+}
